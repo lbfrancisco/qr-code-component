@@ -25,7 +25,7 @@ body {
 
 body * {
   font-family: "Outfit", sans-serif;
-  font-size: 15px;
+  font-size: 62.5%;
 }
 
 main {
@@ -44,12 +44,13 @@ main {
 
 h1 {
   color: var(--blue-500);
-  font-size: 28px;
+  font-size: 1.8rem;
   margin-top: 16px;
   margin-inline: 10px;
 }
 
 p {
+  font-size: 1.2rem;
   color: var(--gray-500);
   margin-top: 12px;
   margin-inline: 14px;
@@ -60,17 +61,27 @@ img {
   border-radius: 8px;
 }
 
-.attribution {
+footer {
+  font-size: 0.8rem;
   text-align: center;
 }
 
-.attribution a {
+footer a {
+  font-size: 0.8rem;
   text-decoration: none;
   color: #2c7cfc;
+}
+
+a:hover {
+  color: #1953b0;
 }
 
 @media (max-width: 375px) {
   h1 {
     font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1rem;
   }
 }
